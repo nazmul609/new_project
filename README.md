@@ -1,2 +1,12 @@
-# new_project
-Learning Basic Concepts and CI/CD Pipeline with Docker
+##### build the project
+
+    ./gradlew build
+
+##### build Docker image called java-app. Execute from root
+
+    docker build -t java-app .
+    
+##### push image to repo 
+
+    docker tag java-app demo-app:java-1.0
+    
